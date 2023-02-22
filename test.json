@@ -30,7 +30,8 @@
       "title": "widgets.azure.totalNetworkCost.title",
       "tooltipTitle": null,
       "dataToDispatchFormatter": "singleStat",
-      "pageType": "discovery"
+      "pageType": "discovery",
+      "secondCommit": "secondCommit"
     }
   }
 }
