@@ -4,6 +4,7 @@
   "DataToSend": {
     "monitorVersion": "8.1",
     "data": {
+      "firstCommit": "firstCommit",
       "queryType": "RealTime",
       "configPath": "widgets.discovery.subscriptions.totalNetworkCost",
       "tableConfigPath": "tablesSchema.folders",
