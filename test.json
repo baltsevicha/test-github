@@ -1,0 +1,35 @@
+{
+  "Action": "POST",
+  "ElementType": "widget",
+  "DataToSend": {
+    "monitorVersion": "8.1",
+    "data": {
+      "queryType": "RealTime",
+      "configPath": "widgets.discovery.subscriptions.totalNetworkCost",
+      "tableConfigPath": "tablesSchema.folders",
+      "queries": [
+        {
+          "tableName": "Folders",
+          "scheme": "Main",
+          "query": "{\"where\": {\"field\": \"Path\", \"op\": \"eq\", \"value\": \"%nodePath%\"}}",
+          "page": {
+            "offset": 0,
+            "size": 1
+          },
+          "fields": [
+            {
+              "name": "AzureTotalNetworkCost"
+            }
+          ],
+          "params": ["nodePath"]
+        }
+      ],
+      "widgetType": "SingleStat",
+      "unitsLabel": null,
+      "title": "widgets.azure.totalNetworkCost.title",
+      "tooltipTitle": null,
+      "dataToDispatchFormatter": "singleStat",
+      "pageType": "discovery"
+    }
+  }
+}
