@@ -27,6 +27,7 @@
       ],
       "widgetType": "SingleStat",
       "unitsLabel": null,
+      "thirdCommit": "thirdCommit",
       "title": "widgets.azure.totalNetworkCost.title",
       "tooltipTitle": null,
       "dataToDispatchFormatter": "singleStat",
